@@ -20,7 +20,7 @@ const iDbutton = document.getElementById("searchIdButton").addEventListener('cli
 function loadApi() {
     var input = document.getElementById("search-input");
     var imdbID = document.getElementById('imdbId');
-    var url = 'http://www.omdbapi.com/?s='+input.value+'&apikey=27eab8c1';
+    var url = 'https://www.omdbapi.com/?s='+input.value+'&apikey=27eab8c1';
     var xmlhttp = new XMLHttpRequest();
     if (input.value == "" && imdbID.value == "") {
         alert("Don't leave both search-fields empy.");
@@ -41,7 +41,7 @@ function loadApi() {
 function loadIdApi() {
     var input = document.getElementById("search-input");
     var imdbID = document.getElementById('imdbId');
-    var idUrl ='http://www.omdbapi.com/?i='+imdbID.value+'&apikey=27eab8c1';
+    var idUrl ='https://www.omdbapi.com/?i='+imdbID.value+'&apikey=27eab8c1';
     var xmlhttp = new XMLHttpRequest();
     if (input.value == "" && imdbID.value == "") {
         alert("Don't leave both search-fields empy.");
