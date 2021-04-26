@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    background-color: rgb(211, 211, 211);
+    font-family: Arial, Verdana, sans-serif;
+    color: #000000;
+    background-size: auto;
+    padding: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(211, 211, 211);
+}
+.header {
+    background-image: url('moviepic.jpeg');
+    background-repeat: no-repeat;
+    background-color: dimgray;
+    background-size: cover;
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+}  
+.main{
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: none;
+    text-align: center;
+    
+}
+
+form {
+    text-align: left;
+    padding-left: 120px;;
+}
+input{
+    width: 600px;
+    
+}
+button {
+    outline: 0;
+    margin: 0px;
+    
+}
+table {
+    margin-left: 115px;
+    padding: 10px;
+}
+#headtr {
+    text-align: center;
+    font-weight: bold;
+}
+tr {
+    text-align: left;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-bottom-color: rgb(180, 180, 180);
+}
+td {
+    padding: 15px;
+
+}
+.posteri {
+    height: 250px;
+    width: 175px;
+    float: right;
+}
